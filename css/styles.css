@@ -1,0 +1,56 @@
+.imagen_fondo{
+    background-image: url('/img/doggis-promocion-dia-del-completo-italiano.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.imagen_fondo::before {
+    content: "";
+    position: absolute;
+    height: 70vh;
+    width: 50%;
+}
+
+.menu {
+    background-color: #ffcc00;
+}
+
+.container {
+    width: 100rem;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7.5rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    flex-basis: 20%;
+}
+
+.navbar a {
+    color: #b23d33;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+}
+
+.nav-seleccion {
+    list-style: none;
+    display: flex;
+}
+
+.nav-seleccion li {
+    margin-right: 5rem;
+}
