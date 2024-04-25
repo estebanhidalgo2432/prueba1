@@ -1,3 +1,7 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .imagen_fondo{
     background-image: url('/img/doggis-promocion-dia-del-completo-italiano.jpg');
     height: 100vh;
@@ -20,6 +24,7 @@
 .container {
     width: 100rem;
     margin: 0 auto;
+    padding: 10px 0;
 }
 
 .navbar {
@@ -34,7 +39,7 @@ img {
 }
 
 .logo {
-    flex-basis: 20%;
+    flex-basis: 15%;
 }
 
 .navbar a {
