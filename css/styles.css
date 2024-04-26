@@ -145,3 +145,24 @@ img {
 .image_locales {
   width: 180px;
 }
+
+.color_fondo {
+  background-color: #ffcc00;
+}
+
+.subtitulo {
+  font-size: 20px;
+  color: #b95148;
+}
+
+.lista_contactos {
+  display: flex;
+}
+
+.sublista-image {
+  flex-basis: 284px;
+}
+
+.sublista-conocenos {
+  flex-basis: 284px;
+}
