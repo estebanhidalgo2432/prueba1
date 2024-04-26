@@ -69,8 +69,7 @@ img {
 }
 
 .nombre-combos {
-  width: 20%;
-  height: auto;
+  width: 10% 0%;
 }
 
 .imagen {
@@ -78,23 +77,30 @@ img {
 }
 
 .content {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .estilo-imagen {
-  /* align-items: center;
-  justify-content: center;
-  flex-grow: 1; */
   width: 40%;
   border-radius: 10px;
   margin-bottom: -6px;
-  /* height: auto; */
+  
 }
 
 .panel {
   display: flex;
-  flex-direction: row;
-  /* flex-wrap: wrap; */
-  
+  gap: 2rem;
+  flex-wrap: wrap;
+
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+}
+
+.image_card {
+  width: 100%;
 }
 
