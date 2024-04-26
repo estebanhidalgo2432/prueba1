@@ -1,58 +1,82 @@
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.imagen_fondo{
-    background-image: url('/img/doggis-promocion-dia-del-completo-italiano.jpg');
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.imagen_fondo::before {
-    content: "";
-    position: absolute;
-    height: 70vh;
-    width: 50%;
+.imagen_fondo {
+  background-image: url("/img/doggis-promocion-dia-del-completo-italiano.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .menu {
-    background-color: #ffcc00;
+  background-color: #ffcc00;
 }
 
 .container {
-    width: 100rem;
-    margin: 0 auto;
-    padding: 10px 0;
+  width: 100rem;
+  margin: 0 auto;
+  padding: 10px 0;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 7.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7.5rem;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .logo {
-    flex-basis: 15%;
+  flex-basis: 15%;
 }
 
 .navbar a {
-    color: #b23d33;
-    text-decoration: none;
+  color: #b23d33;
+  text-decoration: none;
 }
 
-
 .nav-seleccion {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 .nav-seleccion li {
-    margin-right: 5rem;
+  margin-right: 30px;
+}
+
+.titulo {
+    padding: 60px 0;
+}
+
+.titulo h2 {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 45px;
+}
+
+.content p {
+    font-size: 28px;
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #ffeea8;
+    border-radius: 7px;
+}
+
+.estilo-imagen {
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  width: 20%;
+  height: auto;
+}
+
+.nombre-combos {
+  width: 20%;
+  height: auto;
 }
