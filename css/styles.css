@@ -68,15 +68,33 @@ img {
     border-radius: 7px;
 }
 
-.estilo-imagen {
-  align-items: center;
-  justify-content: center;
-  flex-grow: 1;
-  width: 20%;
-  height: auto;
-}
-
 .nombre-combos {
   width: 20%;
   height: auto;
 }
+
+.imagen {
+  width: 700px;
+}
+
+.content {
+  margin: 0 auto;
+}
+
+.estilo-imagen {
+  /* align-items: center;
+  justify-content: center;
+  flex-grow: 1; */
+  width: 40%;
+  border-radius: 10px;
+  margin-bottom: -6px;
+  /* height: auto; */
+}
+
+.panel {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  
+}
+
