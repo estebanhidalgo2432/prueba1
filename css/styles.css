@@ -96,7 +96,7 @@ img {
 }
 
 .card {
-  width: 300px;
+  width: 350px;
   height: 400px;
 }
 
@@ -107,6 +107,7 @@ img {
 .title {
   font-size: 45px;
   text-align: center;
+  font-family: 'Digitalt', sans-serif;;
 }
 
 .lista_pedidos {
@@ -123,4 +124,6 @@ img {
 .marcas {
   margin-bottom: 5rem;
 }
+
+
 
