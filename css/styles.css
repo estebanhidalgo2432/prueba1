@@ -131,3 +131,17 @@ img {
 .marcas {
   margin-bottom: 5rem;
 }
+
+.padre {
+  padding-bottom: 5rem;
+}
+
+.lista_locales {
+  display: flex;
+  column-gap: 1rem;
+  justify-content: center;
+}
+
+.image_locales {
+  width: 180px;
+}
