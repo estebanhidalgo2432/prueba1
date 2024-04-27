@@ -181,6 +181,7 @@ img {
 
 .sublista_image {
   flex-basis: 250px;
+  padding-right: 50px;
 }
 
 .sublista_conocenos {
