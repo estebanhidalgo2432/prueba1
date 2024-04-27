@@ -177,10 +177,30 @@ img {
   display: flex;
 }
 
-.sublista-image {
+.sublista_image {
   flex-basis: 284px;
 }
 
-.sublista-conocenos {
+.sublista_conocenos {
   flex-basis: 284px;
+}
+
+.sublista_sociales {
+  flex-basis: 284px;
+}
+
+.sublista_cuenta {
+  flex-basis: 284px;
+}
+
+.texto_conocenos{
+  color: #b95148;
+  padding-bottom: .5rem;
+  text-decoration: none;
+  width: 100%;
+}
+
+.lista_puntos {
+  list-style: none;
+  padding-left: 0;
 }
