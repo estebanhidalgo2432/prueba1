@@ -166,6 +166,7 @@ img {
 
 .color_fondo {
   background-color: #ffcc00;
+  padding: 80px;
 }
 
 .subtitulo {
@@ -178,7 +179,7 @@ img {
 }
 
 .sublista_image {
-  flex-basis: 284px;
+  flex-basis: 250px;
 }
 
 .sublista_conocenos {
