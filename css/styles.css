@@ -90,11 +90,18 @@ img {
   border-radius: 7px;
 }
 
-.nombre-combos {
-  width: 10% 0%;
+button {
+  font-size: 28px;
+  border-radius: 7px;
   font-family: "Titan One", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color: #ffeea8;
+  width: 95%; 
+}
+
+button:hover {
+  background-color:#ffeea8; ;
 }
 
 .imagen {
